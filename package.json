@@ -1,5 +1,5 @@
 {
-  "name": "@react-forked/dnd",
+  "name": "@warenek/dnd",
   "version": "14.0.1",
   "description": "Beautiful and accessible drag and drop for lists with React",
   "author": "Alex Reardon <areardon@atlassian.com>",
@@ -20,10 +20,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/react-forked/dnd.git"
+    "url": "git+https://github.com/WarEnek/dnd.git"
   },
   "bugs": {
-    "url": "https://github.com/react-forked/dnd/issues"
+    "url": "https://github.com/WarEnek/dnd/issues"
   },
   "main": "dist/dnd.cjs.js",
   "module": "dist/dnd.esm.js",
@@ -204,5 +204,10 @@
   "license": "Apache-2.0",
   "jest-junit": {
     "output": "test-reports/junit/js-test-results.xml"
+  },
+  "homepage": "https://github.com/WarEnek/dnd#readme",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
   }
 }

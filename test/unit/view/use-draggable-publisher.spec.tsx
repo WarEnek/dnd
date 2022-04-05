@@ -25,6 +25,7 @@ import type {
 import createRegistry from '../../../src/state/registry/create-registry';
 import setDOMRect from '../../util/set-dom-rect';
 import { disableWarn } from '../../util/console';
+import { defaultTimeForLongPress } from '../../../src/view/use-sensor-marshal/sensors/use-touch-sensor';
 
 const preset = getPreset();
 const noComputedSpacing = getComputedSpacing({});
@@ -38,6 +39,7 @@ interface ItemProps {
 const defaultOptions: DraggableOptions = {
   canDragInteractiveElements: false,
   shouldRespectForcePress: false,
+  timeForLongPress: defaultTimeForLongPress,
   isEnabled: true,
 };
 
